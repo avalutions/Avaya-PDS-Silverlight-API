@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message code="E28804">
+    <source name="AGTAttachJob"><![CDATA[Job {0} is not running (not active).]]></source>
+    <source name="Default"><![CDATA[Job {0} is not runnin]]></source>
+  </message>
+  <message code="E28800">
+    <source name="AGTSetCallback"><![CDATA[Recall cannot be less than {0} from current time. This value is from the RECALLLIMIT settings in the vllocale.cfg file on the Avaya PDS system.Recall cannot be less than {0} from current time. This value is from the RECALLLIMIT settings in the vllocale.cfg file on the Avaya PDS system.]]></source>
+    <source name="default"><![CDATA[Recall cannot be less than {0}.]]></source>
+  </message>
+  <message code="E00518">
+    <source name="AGTListCallFields"><![CDATA[There is no calling list with {0} on the system. The agent entry is the name of the process on the Avaya PDS system returning the error (it will always be agent). {0} is the name submitted by the client process.]]></source>
+    <source name="AGTListKeys"><![CDATA[Unable to open the keys file. Indicates an Avaya PDS system problem.]]></source>
+    <source name="default"><![CDATA[Calling list {0} does not exist.]]></source>
+  </message>
+  <message code="E28805">
+    <source name="AGTAvailWork"><![CDATA[{0} is not ready. The attached job is active, but is not placing calls. Retry the logon after job starts placing calls.]]></source>
+    <source name="default"><![CDATA[Job {0} is not ready. Join the job later.]]></source>
+  </message>
+  <message code="E28812">
+    <source name="AGTLogon"><![CDATA[{0} is logged on to another application process. The agent may be logged on at another location. Retry logon with a different {0}.]]></source>
+    <source name="default"><![CDATA[Agent {0} already logged on. Access is denied.]]></source>
+  </message>
+  <message code="E28813">
+    <source name="AGTAvailWork"><![CDATA[No more agents of this type may join the job. Job parameters include a maximum number of agents of each type (work class) that may log into the job. See
+AGTSetWorkClass.]]></source>
+    <source name="default"><![CDATA[Maximum {0} agent limit reached.]]></source>
+  </message>
+  <message code="E28814">
+    <source name="AGTAvailWork"><![CDATA[Managed agents may not join this job. The agent application agent type (work class) is M (Managed). The attached job is not a Managed Dialing job. Reset the agent type and retry.]]></source>
+    <source name="default"><![CDATA[Managed agents cannot join this job.]]></source>
+  </message>
+  <message code="E28815">
+    <source name="AGTAvailWork"><![CDATA[The agent is logged on as a Unit Work List agent and is attempting to join a Sales Verification job. Select a different job and retry.]]></source>
+    <source name="default"><![CDATA[Sales verification with unit work lists is not permitted]]></source>
+  </message>
+  <message code="E28816">
+    <source name="AGTAvailWork"><![CDATA[Only inbound agents may join this job. The agent application agent type (work class) does not match the job type. Set the agent type to I and retry.]]></source>
+    <source name="default"><![CDATA[Only inbound agents are permitted.]]></source>
+  </message>
+  <message code="E28817">
+    <source name="AGTAvailWork"><![CDATA[Only outbound agents may join this job. The agent application agent type (work class) does not match the job type. Set the agent type to O and retry.]]></source>
+    <source name="default"><![CDATA[Only outbound agents are permitted.]]></source>
+  </message>
+  <message code="E28818">
+    <source name="AGTAvailWork"><![CDATA[Only outbound or Managed agents may join this job. The agent application agent type (work class) does not match the job type. Set the agent type to O or M and retry.]]></source>
+    <source name="default"><![CDATA[Only outbound or Managed agents are permitted]]></source>
+  </message>
+  <message code="E28819">
+    <source name="AGTAvailWork"><![CDATA[Only outbound agents may join Sales Verification jobs. The agent application agent type (work class) does not match the job type. Set the agent type to O and retry.]]></source>
+    <source name="default"><![CDATA[Only outbound agents are permitted on a Sales Verification job.]]></source>
+  </message>
+  <message code="E28831">
+    <source name="AGTSetCallback"><![CDATA[Date field has non-numeric value. Retry the command with the {0} parameter set to a numeric value.]]></source>
+    <source name="default"><![CDATA[Field has non-numeric value.]]></source>
+  </message>
+  <message code="E28832">
+    <source name="AGTSetCallback"><![CDATA[{0} used as the date parameter does not match the Avaya PDS system {1} shown here. Retry command with correct date format.]]></source>
+    <source name="default"><![CDATA[Date {0} submitted doesn’t match {1} format.]]></source>
+  </message>
+  <message code="E28833">
+    <source name="AGTSetCallback"><![CDATA[Invalid month in date. Retry with month in the range 01 to 12.]]></source>
+    <source name="default"><![CDATA[Date has an invalid month.]]></source>
+  </message>
+  <message code="E28834">
+    <source name="AGTSetCallback"><![CDATA[Invalid year in date. Retry with year set to current year or current year plus some number.]]></source>
+    <source name="default"><![CDATA[Date has an invalid year.]]></source>
+  </message>
+  <message code="E28835">
+    <source name="AGTSetCallback"><![CDATA[Invalid day in date. Retry with a day value in the range for the current month. For example, use between 01 and 28 for February.]]></source>
+    <source name="default"><![CDATA[Date has an invalid day.]]></source>
+  </message>
+  <message code="E28836">
+    <source name="AGTSetCallback"><![CDATA[Invalid format character found. Check date for slash (/) versus backslash (\) and time for colons or other extra characters.]]></source>
+    <source name="default"><![CDATA[Invalid format character found.]]></source>
+  </message>
+  <message code="E28837">
+    <source name="AGTSetCallback"><![CDATA[Invalid hour in time. If using the HHMM format, hour value must be between 01 and 24; for HHMM[A or P] hour value must be between 01 and 12.]]></source>
+    <source name="default"><![CDATA[Time has an invalid hour.]]></source>
+  </message>
+  <message code="E28838">
+    <source name="AGTSetCallback"><![CDATA[Invalid minute in time. Minute value must fall in the range 00 to 59.]]></source>
+    <source name="default"><![CDATA[Time has an invalid minute.]]></source>
+  </message>
+  <message code="E28839">
+    <source name="AGTSetCallback"><![CDATA[Invalid second in time. Retry command without any seconds value in the time parameter.]]></source>
+    <source name="default"><![CDATA[Time has an invalid second.]]></source>
+  </message>
+  <message code="E28840">
+    <source name="AGTSetCallback"><![CDATA[Time is not in correct format. Check for missing A, P, or + value following HHMM, missing digits in the hour or minute values, or alphabetic values in the time.]]></source>
+    <source name="default"><![CDATA[Time is not in the correct format.]]></source>
+  </message>
+  <message code="E28841">
+    <source name="AGTSetCallback"><![CDATA[Invalid phone index. The telephone field index does not fall in the range returned by AGTListCallbackFmt for the customer record. Retry with a value between 1 and the AGTListCallbackFmt value.]]></source>
+    <source name="default"><![CDATA[Invalid phone.]]></source>
+  </message>
+  <message code="E28842">
+    <source name="AGTSetCallback"><![CDATA[Invalid recall telephone selected. Status is {0}.  The telephone number specified by the <index> parameter is not valid. The <status> value is B, T, or Z. B indicates a bad telephone number, T indicates the phone number belongs to an unknown time zone, and Z indicates that the recall time is invalid in the time zone.]]></source>
+    <source name="default"><![CDATA[Invalid phone number. Phonestat: {0}.]]></source>
+  </message>
+  <message code="E28843">
+    <source name="AGTManualCall"><![CDATA[{0} is invalid. Either the format of the number does not match the standard phone format on the Avaya PDS system, or the telephone number itself is not valid.]]></source>
+    <source name="default"><![CDATA[Invalid phone number - {0}.]]></source>
+  </message>
+  <message code="E28847">
+    <source name="AGTSetCallback"><![CDATA[Date is before the current date. Retry the command with today’s date or some future date.]]></source>
+    <source name="default"><![CDATA[Date is before the current date.]]></source>
+  </message>
+  <message code="E28848">
+    <source name="AGTSetCallback"><![CDATA[Recall time and date outside time zone. The recall time setting is for the Avaya PDS system time. However, the telephone to recall is in a different time zone. In that time zone, the recall time setting is outside the legal boundaries for placing calls to customers.]]></source>
+    <source name="default"><![CDATA[Recall time is outside the limits for the time zone.]]></source>
+  </message>
+  <message code="E28849">
+    <source name="AGTSetCallback"><![CDATA[Because the time zone for the customer record is unknown, the Avaya PDS system cannot tell if the recall time is within legal calling times. {0} discovered the bad time zone; it is always agent.]]></source>
+    <source name="default"><![CDATA[{0} - Time zone for the record is not known.]]></source>
+  </message>
+  <message code="E28850">
+    <source name="AGTConnHeadset"><![CDATA[Internal Avaya PDS system error: cannot open a channel to the operator monitor process; unable to connect headset ID. This message may indicate an Avaya PDS system problem.]]></source>
+    <source name="AGTReserveHeadset"><![CDATA[Internal Avaya PDS system error: cannot open channel to operator monitor process; unable to reserve headset ID. May indicate an Avaya PDS system problem.]]></source>
+    <source name="AGTAdjustHeadset"><![CDATA[Cannot open the channel to the operator monitor process. Indicates an Avaya PDS system problem.]]></source>
+    <source name="AGTGetHeadsetVol"><![CDATA[Cannot open the channel to the operator monitor process. Indicates an Avaya PDS system problem.]]></source>
+    <source name="default"><![CDATA[Cannot open channel to operator monitor process.]]></source>
+  </message>
+  <message code="E28851">
+    <source name="AGTGetHeadsetVol"><![CDATA[There is no response from the operator monitor process. Indicates an Avaya PDS system problem.]]></source>
+    <source name="default"><![CDATA[No response from the operator monitor process.]]></source>
+  </message>
+  <message code="E28858">
+    <source name="AGTSTART"><![CDATA[The {0} logon exceeds the Avaya PDS limit on the number of agents. This error can occur if client sessions for the agent application are left running on the Avaya PDS system after agent workstation crashes.]]></source>
+    <source name="default"><![CDATA[{0} exceeded the number of agent slots available.]]></source>
+  </message>
+  <message code="E28859">
+    <source name="AGTSystemError"><![CDATA[The agent logon is invalid. The first value is always agent, followed by the agent logon name and the operator slot number the Avaya PDS system assigned to the agent name. Indicates an Avaya PDS system problem.]]></source>
+    <source name="default"><![CDATA[{0} ({1}) - Agent number returned invalid {2}.]]></source>
+  </message>
+  <message code="E28862">
+    <source name="AGTSystemError"><![CDATA[The agent’s job selection {0} returned a fatal error. The agent child process supporting the client session is terminating.]]></source>
+    <source name="default"><![CDATA[Avaya PDS FATAL ERROR ON SELECT {0}. Process terminat ng.]]></source>
+  </message>
+  <message code="E28863">
+    <source name="AGTSystemError"><![CDATA[Unknown file descriptor. Can indicate a command format problem from the agent application.]]></source>
+    <source name="default"><![CDATA[ERROR. Unknown file descriptor.]]></source>
+  </message>
+  <message code="E28864">
+    <source name="AGTSystemError"><![CDATA[Unknown IPC message. Message text follows.]]></source>
+    <source name="default"><![CDATA[Unknown IPC message - {0}.]]></source>
+  </message>
+  <message code="E28865">
+    <source name="Generic"><![CDATA[Unknown command message. The {0} is the text string that agent received as the command.]]></source>
+    <source name="default"><![CDATA[Unknown Command message - {0}.]]></source>
+  </message>
+  <message code="E28866">
+    <source name="AGTAdjustHeadset"><![CDATA[Telephone line is not available.The agent must receive a customer call to acquire an open telephone line.]]></source>
+    <source name="AGTDialDigit"><![CDATA[Telephone line is not available.The agent must receive a customer call to acquire an open telephone line.]]></source>
+    <source name="AGTGetHeadsetVol"><![CDATA[Telephone line is not available.The agent must receive a customer call to acquire an open telephone line.]]></source>
+    <source name="AGTManualCall"><![CDATA[Telephone line is not available.The agent must receive a customer call to acquire an open telephone line.]]></source>
+    <source name="AGTFinishedItem"><![CDATA[There is no line available. This error generally indicates the agent is trying to cancel a Managed Dialing call too late.]]></source>
+    <source name="AGTHangupCall"><![CDATA[A telephone line is not available. There is no call to hang up.]]></source>
+    <source name="AGTHoldCall"><![CDATA[Telephone line is not available. There is no open telephone line to place on hold.]]></source>
+    <source name="AGTHookflashLine"><![CDATA[No phone line is available. The Avaya PDS system does not have a telephone line available to place the transfer call.]]></source>
+    <source name="AGTMoFlashBlind"><![CDATA[No phone line is available. The Avaya PDS system does not have a telephone line available to place the transfer call.]]></source>
+    <source name="AGTMoFlashSupv"><![CDATA[No phone line is available. The Avaya PDS system does not have a telephone line available to place the transfer call.]]></source>
+    <source name="AGTTransferCall"><![CDATA[No phone line is available. The Avaya PDS system does not have a telephone line available to place the transfer call.]]></source>
+    <source name="AGTReleaseLine"><![CDATA[Failed to release the line for the Managed Dialing preview (no telephone line available). This message results when the Avaya PDS system is placing the preview call.]]></source>
+    <source name="AGTSetCallback"><![CDATA[Telephone line is not available. There is a recall scheduled for current date and time, but no telephone line is available to place the outbound call.]]></source>
+    <source name="AGTUnholdCall"><![CDATA[Telephone line is not available. While there was a call on hold, it is not available to restore. The customer hung up while on hold.]]></source>
+    <source name="default"><![CDATA[Telephone line is not available.]]></source>
+  </message>
+  <message code="E28867">
+    <source name="AGTAdjustHeadset"><![CDATA[Telephone line is not offhook. The agent has an open telephone line that is on hold.]]></source>
+    <source name="AGTDialDigit"><![CDATA[The telephone line is not offhook. Place the telephone line in offhook state and retry.]]></source>
+    <source name="AGTGetHeadsetVol"><![CDATA[The telephone line is not offhook. Place the telephone line in offhook state and retry.]]></source>
+    <source name="AGTHoldCall"><![CDATA[Telephone line is not offhook. While there is an open telephone line, there is no call to place on hold. This message may mean the agent has already placed the call on hold.]]></source>
+    <source name="AGTMoFlashBlind"><![CDATA[Line is not offhook. There is no current telephone call to transfer.]]></source>
+    <source name="AGTMoFlashSupv"><![CDATA[Line is not offhook. There is no current telephone call to transfer.]]></source>
+    <source name="AGTHookflashLine"><![CDATA[Line is not offhook. There is no current telephone call to transfer.]]></source>
+    <source name="AGTTransferCall"><![CDATA[Line is not offhook. There is no current telephone call to transfer.]]></source>
+    <source name="AGTUnholdCall"><![CDATA[Telephone line is not offhook. There is no call on hold. Customer may have been cut off rather than placed on hold.]]></source>
+    <source name="default"><![CDATA[Telephone line is not offhook.]]></source>
+  </message>
+  <message code="E28868">
+    <source name="default"><![CDATA[Recalls are not permitted on inbound calls]]></source>
+  </message>
+  <message code="E28869">
+    <source name="default"><![CDATA[Headset volume must be set between 1 and 8.]]></source>
+  </message>
+  <message code="E28870">
+    <source name="default"><![CDATA[Reserve headset ID request pending.]]></source>
+  </message>
+  <message code="E28871">
+    <source name="default"><![CDATA[Invalid headset ID- {0}.]]></source>
+  </message>
+  <message code="E28872">
+    <source name="default"><![CDATA[Headset is already connected.]]></source>
+  </message>
+  <message code="E28873">
+    <source name="default"><![CDATA[Headset ID is not reserved nor validated.]]></source>
+  </message>
+  <message code="E28874">
+    <source name="default"><![CDATA[Connect headset request is pending.]]></source>
+  </message>
+  <message code="E28875">
+    <source name="default"><![CDATA[No headset connect request is pending.]]></source>
+  </message>
+  <message code="E28876">
+    <source name="default"><![CDATA[Headset is not connected.]]></source>
+  </message>
+  <message code="E28877">
+    <source name="default"><![CDATA[Disconnect headset request is pending.]]></source>
+  </message>
+  <message code="E28879">
+    <source name="default"><![CDATA[Headset is not disconnected.]]></source>
+  </message>
+  <message code="E28880">
+    <source name="default"><![CDATA[Headset connection is broken.]]></source>
+  </message>
+  <message code="E28881">
+    <source name="default"><![CDATA[Headset reconnected.]]></source>
+  </message>
+  <message code="E28882">
+    <source name="default"><![CDATA[Already available for work. Cannot change the agent type (work class).]]></source>
+  </message>
+  <message code="E28883">
+    <source name="default"><![CDATA[Invalid agent type (work class). Type must be B, I, O, M, or P.]]></source>
+  </message>
+  <message code="E28884">
+    <source name="default"><![CDATA[Cannot attach to shared data memory.]]></source>
+  </message>
+  <message code="E28885">
+    <source name="default"><![CDATA[Not attached to a job.]]></source>
+  </message>
+  <message code="E28886">
+    <source name="default"><![CDATA[Unit work lists are not permitted on this job.]]></source>
+  </message>
+  <message code="E28887">
+    <source name="default"><![CDATA[Already available for work. Cannot change unit.]]></source>
+  </message>
+  <message code="E28888">
+    <source name="default"><![CDATA[Unit not found.]]></source>
+  </message>
+  <message code="E28889">
+    <source name="default"><![CDATA[Already attached to a job, Detach current job and retry.]]></source>
+  </message>
+  <message code="E28890">
+    <source name="default"><![CDATA[Failure to open job {0} resource file.]]></source>
+  </message>
+  <message code="E28891">
+    <source name="default"><![CDATA[Must specify INBOUND or OUTBOUND operation.]]></source>
+  </message>
+  <message code="E28892">
+    <source name="default"><![CDATA[No inbound calling list fields are available.]]></source>
+  </message>
+  <message code="E28893">
+    <source name="default"><![CDATA[No outbound calling list fields are available.]]></source>
+  </message>
+  <message code="E28894">
+    <source name="default"><![CDATA[{0} not found.]]></source>
+  </message>
+  <message code="E28895">
+    <source name="default"><![CDATA[Already available for work.]]></source>
+  </message>
+  <message code="E28896">
+    <source name="default"><![CDATA[Headset must be active.]]></source>
+  </message>
+  <message code="E28897">
+    <source name="default"><![CDATA[Available for work request is pending.]]></source>
+  </message>
+  <message code="E28898">
+    <source name="default"><![CDATA[Job is not available.]]></source>
+  </message>
+  <message code="E28899">
+    <source name="default"><![CDATA[No available for work request is pending.]]></source>
+  </message>
+  <message code="E28900">
+    <source name="default"><![CDATA[Wronge message ID received - {0}.]]></source>
+  </message>
+  <message code="E28901">
+    <source name="default"><![CDATA[Not available for work.]]></source>
+  </message>
+  <message code="E28902">
+    <source name="default"><![CDATA[Already have open customer record.]]></source>
+  </message>
+  <message code="E28903">
+    <source name="default"><![CDATA[Already set ready for next customer record.]]></source>
+  </message>
+  <message code="E28904">
+    <source name="default"><![CDATA[Request for no further work is pending.]]></source>
+  </message>
+  <message code="E28905">
+    <source name="default"><![CDATA[Request to transfer to another job is active.]]></source>
+  </message>
+  <message code="E28906">
+    <source name="default"><![CDATA[Not ready for next customer record.]]></source>
+  </message>
+  <message code="E28907">
+    <source name="default"><![CDATA[Not a Managed Dialing job.]]></source>
+  </message>
+  <message code="E28908">
+    <source name="default"><![CDATA[No open customer record.]]></source>
+  </message>
+  <message code="E28909">
+    <source name="default"><![CDATA[Managed dialing call is already complete.]]></source>
+  </message>
+  <message code="E28910">
+    <source name="default"><![CDATA[Managed dialing call is cancelled or complete.]]></source>
+  </message>
+  <message code="E28911">
+    <source name="default"><![CDATA[Managed dialing call is cancelled.]]></source>
+  </message>
+  <message code="E28912">
+    <source name="default"><![CDATA[Customer record is not available for update.]]></source>
+  </message>
+  <message code="E28913">
+    <source name="default"><![CDATA[There is no attached job to detach.]]></source>
+  </message>
+  <message code="E28914">
+    <source name="default"><![CDATA[Still available for work on the job.]]></source>
+  </message>
+  <message code="E28915">
+    <source name="default"><![CDATA[Not logged out of job.]]></source>
+  </message>
+  <message code="E28916">
+    <source name="default"><![CDATA[Job attached. Detach job and retry.]]></source>
+  </message>
+  <message code="E28917">
+    <source name="default"><![CDATA[No job attached. Job linking is not available.]]></source>
+  </message>
+  <message code="E28918">
+    <source name="default"><![CDATA[Not available for work on the job.]]></source>
+  </message>
+  <message code="E28919">
+    <source name="default"><![CDATA[No active customer record to release.]]></source>
+  </message>
+  <message code="E28920">
+    <source name="default"><![CDATA[Headset ID is not found in reserved list - {0}.]]></source>
+  </message>
+  <message code="E28921">
+    <source name="default"><![CDATA[FATAL ERROR. AGENT PROCESS (agent binary) ENDING.]]></source>
+  </message>
+  <message code="E28922">
+    <source name="default"><![CDATA[No reserve headset ID request pending. Retry command with headset ID.]]></source>
+  </message>
+  <message code="E28923">
+    <source name="default"><![CDATA[Headset ID {0} is already reserved.]]></source>
+  </message>
+  <message code="E28924">
+    <source name="default"><![CDATA[Must log into system first.]]></source>
+  </message>
+  <message code="E28925">
+    <source name="default"><![CDATA[Already logged on to the system.]]></source>
+  </message>
+  <message code="E28926">
+    <source name="default"><![CDATA[Invalid logon.]]></source>
+  </message>
+  <message code="E28942">
+    <source name="default"><![CDATA[Transfer job is not available.]]></source>
+  </message>
+  <message code="E28946">
+    <source name="default"><![CDATA[Predictive Blend agent is not acquired for outbound calls.]]></source>
+  </message>
+  <message code="E28947">
+    <source name="default"><![CDATA[Invalid completion code.]]></source>
+  </message>
+  <message code="E28950">
+    <source name="default"><![CDATA[Extension not a valid ACD extension.]]></source>
+  </message>
+  <message code="E28951">
+    <source name="default"><![CDATA[Extension is in use by another agent.]]></source>
+  </message>
+  <message code="E28952">
+    <source name="default"><![CDATA[Cannot add agent.  Maximum number of ACD agents logged on.]]></source>
+  </message>
+  <message code="E28953">
+    <source name="default"><![CDATA[Cannot read file containing ACD extensions.]]></source>
+  </message>
+  <message code="E28954">
+    <source name="default"><![CDATA[Duplicate logon. Please try again.]]></source>
+  </message>
+  <message code="E28955">
+    <source name="default"><![CDATA[Predictive Blend dispatcher process is not running on the Avaya PDS system.]]></source>
+  </message>
+  <message code="E28956">
+    <source name="default"><![CDATA[Unknown ACD logon error]]></source>
+  </message>
+  <message code="E28967">
+    <source name="default"><![CDATA[An agent is disallowed to logoff.]]></source>
+  </message>
+  <message code="E29000">
+    <source name="default"><![CDATA[Agent type is not M.  Cannot join Managed Dialing job.]]></source>
+  </message>
+  <message code="E29203">
+    <source name="default"><![CDATA[System error. Could not attach slot.]]></source>
+  </message>
+  <message code="E29206">
+    <source name="default"><![CDATA[System error. Failed to attach {0} segment of shared memory.]]></source>
+  </message>
+  <message code="E50100">
+    <source name="default"><![CDATA[Exceeded the maximum number of agents  allowed]]></source>
+  </message>
+  <message code="E50611">
+    <source name="default"><![CDATA[Headset ID {0} is already reserved.]]></source>
+  </message>
+  <message code="E50612">
+    <source name="default"><![CDATA[No more headsets permitted on the system.]]></source>
+  </message>
+  <message code="E50613">
+    <source name="default"><![CDATA[Failed to access the headset ID file.]]></source>
+  </message>
+  <message code="E70000">
+    <source name="default"><![CDATA[Incorrect number of arguments.]]></source>
+  </message>
+  <message code="E70001">
+    <source name="default"><![CDATA[Incorrect message type.]]></source>
+  </message>
+  <message code="E70002">
+    <source name="default"><![CDATA[Timed out waiting for {0}.]]></source>
+  </message>
+  <message code="E70003">
+    <source name="default"><![CDATA[Unknown job type.]]></source>
+  </message>
+  <message code="E70006">
+    <source name="default"><![CDATA[Need to select work unit.]]></source>
+  </message>
+  <message code="E70007">
+    <source name="default"><![CDATA[Cannot transfer an inbound call.]]></source>
+  </message>
+  <message code="E70008">
+    <source name="default"><![CDATA[Must specify a transfer job.]]></source>
+  </message>
+  <message code="E70009">
+    <source name="default"><![CDATA[Unable to send the message {0}]]></source>
+  </message>
+  <message code="E70010">
+    <source name="default"><![CDATA[Conference call is already in progress.]]></source>
+  </message>
+  <message code="E70011">
+    <source name="default"><![CDATA[Predictive Blend is not available on this system.]]></source>
+  </message>
+  <message code="E70012">
+    <source name="default"><![CDATA[Password has expired, must be changed.]]></source>
+  </message>
+  <message code="E70013">
+    <source name="default"><![CDATA[Password can not be changed, change limit not expired.]]></source>
+  </message>
+  <message code="E70014">
+    <source name="default"><![CDATA[Password can not be changed, password file locked.]]></source>
+  </message>
+  <message code="E70015">
+    <source name="default"><![CDATA[Unable to become root privilege for setting password.]]></source>
+  </message>
+  <message code="E70016">
+    <source name="default"><![CDATA[Original password is invalid.]]></source>
+  </message>
+  <message code="E70017">
+    <source name="default"><![CDATA[New password entered is invalid.]]></source>
+  </message>
+  <message code="S28814">
+    <source name="AGTAdjustHeadset"><![CDATA[Transfer is in progress. The last call is being transferred. Retry the command after connecting to the next call.]]></source>
+    <source name="AGTHookflashLine"><![CDATA[The transfer for the last call is in progress. Retry after the transfer is complete]]></source>
+    <source name="AGTDialDigit"><![CDATA[The transfer for the last call is in progress. Retry after the transfer is complete]]></source>
+    <source name="AGTGetHeadsetVol"><![CDATA[A transfer is in progress. The customer call is still being transferred to the agent. Retry after connecting to the call.]]></source>
+    <source name="AGTHoldCall"><![CDATA[Transfer is in progress. The Avaya PDS system cannot place the call on hold.]]></source>
+    <source name="AGTManualCall"><![CDATA[Transfer in progress. The last call is being transferred. Retry after transfer complete.]]></source>
+    <source name="AGTMoFlashBlind"><![CDATA[Trunk-to-trunk transfer is already in progress. May mean the agent previously executed AGTTransferCall.]]></source>
+    <source name="AGTMoFlashSupv"><![CDATA[Trunk-to-trunk transfer is already in progress. May mean the agent previously executed AGTTransferCall.]]></source>
+    <source name="AGTUnholdCall"><![CDATA[Transfer is in progress. The call is being transferred.]]></source>
+    <source name="default"><![CDATA[Transfer is in progress.]]></source>
+  </message>
+  <message code="S28971">
+    <source name="AGTIicbFeNotif"><![CDATA[Standby to take outbound calls...Acquisition to outbound is pending.]]></source>
+    <source name="default"><![CDATA[Standby to take outbound calls...]]></source>
+  </message>
+  <message code="S28972">
+    <source name="AGTIicbFeNotif"><![CDATA[Standby to take inbound calls...Release to inbound is pending.]]></source>
+    <source name="default"><![CDATA[Standby to take inbound calls...]]></source>
+  </message>
+  <message code="S70000">
+    <source name="AGTListState"><![CDATA[Agent is on a call. Working on {0}, currently working with a customer record.]]></source>
+    <source name="default"><![CDATA[Working on job {0}. An agent is using a customer record.]]></source>
+  </message>
+  <message code="S70001">
+    <source name="AGTListState"><![CDATA[Agent is ready for a call. Working on {0}, currently waiting for next customer record.]]></source>
+    <source name="default"><![CDATA[Working on job {0}. Waiting for the next customer record]]></source>
+  </message>
+</messages>
